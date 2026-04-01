@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2</title>
+
+    <style>
+        .body{
+            font-family: Arial;
+            background-color: aliceblue;
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .card{
+            background: white;
+            width: 200px;
+            padding: 15px;
+            border-radius: 10px; 
+             box-shadow: 0 0 10px gray; 
+        }
+        .img{
+            width: 100%;
+        }
+        .price{
+            color: orange;
+            font-weight: bold;
+        }
+        .button{
+            background-color: green;
+            color: aliceblue;
+            padding: 8px 15px;
+            border:none
+        }
+        .button:hover{
+            background:greenyellow;
+            color:black;
+        }
+        #bag_price{
+            margin-top: 35px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 align="center">Our Products</h1>
+    <div class="container">
+
+        <!-- Laptop -->
+        <div class="card">
+            <img src="Images/Laptop.png" alt="Laptop">
+            <h3>Product 1</h3>
+            <p>High-quality product that meets <br>your need.</p>
+            <p class="price">$805.08</p>
+            <button class="button">Add to Cart</button>
+        </div>
+       
+        <!-- Bag -->
+        <div class="card">
+            <img src="Images/Bag.png" alt="Bag">
+            <h3>Product 2</h3>
+            <p>Excellent craftsmanship and<br>durable design.</p>
+            <p class="price" id="bag_price">$11.50</p>
+            <button class="button">Add to Cart</button>
+        </div>
+       
+        <!-- Keyboard -->
+        <div class="card">
+            <img src="Images/Keyboard.png" alt="Keyboard">
+            <h3>Product 3</h3>
+            <p>Reliable and affordable choice for<br>everyone.</p>
+            <p class="price">$12.00</p>
+            <button class="button">Add to Cart</button>
+        </div>
+
+    </div>
+</body>
+</html>
